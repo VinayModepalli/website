@@ -1,0 +1,30 @@
+https://stackoverflow.com/questions/63948287/bootstrap-5-navbar-align-items-right
+
+
+https://undraw.co/illustrations
+https://www.freepik.com/vectors/illustrations
+https://blush.design/collections/humaaans/humaaans
+https://www.humaaans.com/
+
+https://michalsnik.github.io/aos/
+https://github.com/michalsnik/aos
+
+
+https://medium.com/wdstack/bootstrap-4-vertical-center-1211448a2eff#:~:text=One%20way%20to%20vertically%20center,col%2Dsm%2D12%20column.
+change dynamic menu on scroll
+https://getbootstrap.com/docs/5.0/components/scrollspy/
+
+https://www.youtube.com/watch?v=X8r9BejDn3c
+
+plans :
+smooth scroll to next section
+stylish menu (remove bootstrap)
+parallax?
+https://codepen.io/alexzaworski/pen/mEZvrG
+
+
+
+https://www.themuse.com/advice/how-to-start-a-cover-letter-opening-lines-examples
+
+
+
