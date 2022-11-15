@@ -1,54 +1,121 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
-html, body {
-    height: 100%;
+html, body{
+    margin:0;
+    padding: 20px;
+    
 }
 body{
-    width: 100vw;
-    height: 100vh;
-    margin:0;
-    font-family: 'Open Sans', sans-serif;
-    background-color: #000000;
-    color:rgb(230, 230, 230)
-
+    max-width: 800px;
+    margin:    30px auto;
+    /*background: rgb(33, 33, 33);*/
+    background: #1B262C;
+    /*color: rgb(217, 215, 215);*/
+    color: #BBE1FA;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.wrapper{
-    width: 100%;
-    height: 100%;
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-    
+
+section{
+    margin-top: 6rem;
+    margin-bottom: 7rem;
+}
+p{
+    font-size: 1.5rem ;
+    line-height: 2.2rem;
 }
 
 h1{
-    font-weight: 700 !important;
-    letter-spacing: 11px;
-    text-transform: uppercase;
-    transition: letter-spacing 0.66s ease-out, font-size 0.5s ease-out;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    display: inline-block;
 }
-h1:hover{
-    letter-spacing: 16px;
+/*.title-box{
+    background: rgb(33,38,45);
+    border: 1px solid rgb(0, 49, 105);
+    padding: 6px;
+    border-radius: 10px;
+    width: fit-content
+}*/
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    /*color: rgb(12, 96, 191);*/
+    color: #1c7aad;
+    display: inline;
+    margin-bottom: 15px;
 }
-p{
-    font-weight: 600 !important;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    color: rgb(105, 105, 105);
-    font-size: 1rem !important;
-    transition: letter-spacing 0.66s ease-out, font-size 0.5s ease-out;
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    /*color: rgb(217, 215, 215);*/
+    font-weight: 100;
+    margin-bottom: 2px;
+}
+p.time{
+    color: #376279;
+    font-size: 1rem;
+    margin-top: 2px;
+}
+.job-desc li{
+    line-height: 2.2rem;
+    font-size: 1.2rem;
+    /*color: rgb(191, 190, 190);*/
+    /*color: #c2eaff;*/
+    color: #BBE1FA; /*dulling this color #BBE1FA;*/
+
+}
+.title p{
+    /*color: rgb(12, 96, 191);*/
+    color: #1c7aad;
+    margin-top: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-.social i{
-    font-size: 2rem;
-    color: rgb(126, 126, 126);
-    transition: color 0.66s ease-out, font-size 0.3s ease-out;
+.box{
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 6px;
+    /*background: #333;*/
+    background: #1a2d37;
+    margin-bottom: 3rem;
 }
-.social i:hover{
-    font-size: 2.3rem;
-    color: rgb(255, 255, 255)
+
+.title-2{
+    
+}
+
+.social{
+    text-align: center;
 }
 .social a{
-    padding: 5px;
+    text-decoration: none;
+    color: #BBE1FA;
+}
+.social a:hover{
+    color:#0F4C75
+}
+.social ul{
+    list-style: none;
+    padding: 10px;
+}
+.social li{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.2rem;
 }
 
 
+
+.title .fa-bolt-lightning{
+    color: rgb(219, 203, 23);
+    font-size: 2.5rem;
+}
+
+.projects .proj-desc p{
+    font-size: 1.2rem;
+}
+.projects a{
+    text-decoration: none;
+    color: #3282B8;
+}
