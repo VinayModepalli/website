@@ -56,13 +56,17 @@ p.time{
     font-size: 1rem;
     margin-top: 2px;
 }
-.job-desc li{
+.job-desc li, .desc p{
     line-height: 2.2rem;
     font-size: 1.2rem;
+    font-weight: 200px;
     /*color: rgb(191, 190, 190);*/
     /*color: #c2eaff;*/
     color: #BBE1FA; /*dulling this color #BBE1FA;*/
 
+}
+.desc{
+    font-weight: 200;
 }
 .title p{
     /*color: rgb(12, 96, 191);*/
